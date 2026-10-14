@@ -1,1 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background: #f3f5f2;
+	color: #172821;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.counter {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	padding: 24px;
+}
+
+.counter h1 {
+	margin: 0 0 12px;
+	font-size: 72px;
+	line-height: 1;
+}
+
+.counter button {
+	width: min(100%, 240px);
+	min-height: 48px;
+	border: 0;
+	border-radius: 4px;
+	background: #176b56;
+	color: #fff;
+	font: inherit;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.counter button:last-child {
+	background: #a53e32;
+}
+
+.counter button:hover {
+	filter: brightness(0.9);
+}
+
+.counter button:focus-visible {
+	outline: 3px solid #172821;
+	outline-offset: 3px;
+}
 
